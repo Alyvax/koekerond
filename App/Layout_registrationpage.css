@@ -1,0 +1,97 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    background: url(./img/beter.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    background-size: 100% 800px;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 500px;
+    padding: 70px 30px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, .5)
+}
+
+.user {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: calc(-100px/2);
+    left: calc(50% - 50px);
+}
+
+h2 {
+    margin: 0;
+    padding: 0 0 20px;
+    color: #efed40;
+    text-align: center;
+}
+
+.container p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #fff
+}
+
+.container input {
+    margin-bottom: 5px;
+}
+
+.container input:not([type=radio]) {
+    width: 100%;
+}
+
+.container input[name="t1"],
+.container input[name="t2"],
+.container input[name="t3"],
+.container input[name="t4"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 30px;
+    color: #fff;
+    font-size: 16px;
+}
+
+::t1,
+t2,
+t3,
+t4 {
+    color: rgb(89, 0, 255);
+}
+
+.container input[name="submit1"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    background: #ff267e;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.container input[name="submit1"]:hover {
+    background: #efed40;
+    color: #262626;
+}
+
+.container1 {
+    margin: 0;
+    padding: 10;
+    font-weight: bold;
+    color: #fff;
+    
+}
