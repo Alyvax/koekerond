@@ -10,7 +10,7 @@
 <form name="form1" action="" method="post">
 
 <img src = "img/user.png" class = "user">
-<h2> Log In Here </h2>
+<h2> Log in here </h2>
 <p>Enter Username</p>
 <input type="text" name="t1" placeholder = "enter username" required pattern="^[A-Za-z0-9]+">
 
